@@ -1,0 +1,116 @@
+body {
+    background-color: rgb(151, 214, 151);
+}
+
+#print {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+  }
+  
+  .card {
+    width: 30%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: white;
+    text-align: center;
+    border-style: solid;
+    border-color: blue;
+    box-shadow: 5px 5px white;
+    background-color: gray;
+  }
+  
+  .card img {
+    height: 300px;
+    width: 300px;
+  }
+
+  #All {
+      background-color: orange;
+      font-size: 20px;
+      padding: 2px;
+      margin: 2px;
+  }
+
+  #Dogs {
+      background-color: blue;
+      font-size: 20px;
+      padding: 2px;
+      margin: 2px;
+  }
+
+  #Cats {
+      background-color: green;
+      font-size: 20px;
+      padding: 2px;
+      margin: 2px;
+  }
+
+  #Dinos {
+      background-color: yellow;
+      font-size: 20px;
+      padding: 2px;
+      margin: 2px;
+  }
+
+#buttons {
+    display: flex;
+    justify-content: center;
+    
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    border-style: solid;
+    border-color: white;
+    border-radius: 15px 15px 15px 15px; 
+    font-size: 100px;
+    color: white;
+    background-color: gray;
+}
+
+h2 {
+    border-style: solid;
+    border-color: blue;
+    padding: 10px;
+    margin: 0px;
+    background-color:gray;
+    color: white;
+}
+
+h3 {
+    border-style: solid;
+    border-color: blue;
+    background-color: gray;
+    color: white;
+    padding: 10px;
+    margin-top: 1px;
+}
+ 
+h4 {
+    border-style: solid;
+    border-color: blue;
+    background-color: gray;
+    color: white;
+    padding: 10px;
+    margin-top: 1px;
+}
+
+.footer {
+    color: green;
+}
+
+.Dogs h3 {
+    background-color: blue;
+}
+
+.Cats h3 {
+    background-color: green;
+}
+
+.Dinos h3 {
+    background-color: yellow;
+}
